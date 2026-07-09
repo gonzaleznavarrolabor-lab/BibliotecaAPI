@@ -246,4 +246,6 @@ public class AutorControllerTests
         autor.Should().NotBeNull();
         autor!.Libros.Count.Should().BeGreaterOrEqualTo(3);
     }
+
+    return true;
 }
