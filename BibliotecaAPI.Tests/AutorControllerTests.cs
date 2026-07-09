@@ -57,7 +57,7 @@ public class AutorControllerTests
         autor.Should().NotBeNull();
         autor!.Id.Should().Be(1);
         autor.Nombre.Should().Be("J. K. Rowling");
-        autor.Nacionalidad.Should().Be("Reino Unid");
+        autor.Nacionalidad.Should().Be("Reino Unido");
     }
 
     [Fact]
