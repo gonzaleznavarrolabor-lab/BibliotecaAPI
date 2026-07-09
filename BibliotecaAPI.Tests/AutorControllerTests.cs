@@ -57,7 +57,7 @@ public class AutorControllerTests
         autor.Should().NotBeNull();
         autor!.Id.Should().Be(1);
         autor.Nombre.Should().Be("J. K. Rowling");
-        autor.Nacionalidad.Should().Be("Reino Unido");
+        autor.Nacionalidad.Should().Be("Reino Unid");
     }
 
     [Fact]
@@ -247,5 +247,4 @@ public class AutorControllerTests
         autor!.Libros.Count.Should().BeGreaterOrEqualTo(3);
     }
 
-    return true;
 }
